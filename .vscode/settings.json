@@ -1,0 +1,9 @@
+{
+    "window.autoDetectColorScheme": true,
+    "workbench.commandPalette.preserveInput": true,
+    "workbench.experimental.share.enabled": true,
+    "workbench.experimental.cloudChanges.partialMatches.enabled": true,
+    "workbench.list.scrollByPage": true,
+    "workbench.quickOpen.preserveInput": true,
+    "workbench.settings.useSplitJSON": true
+}
