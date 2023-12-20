@@ -55,12 +55,6 @@ Connect to the container by launching the software for the configured remote acc
 
 All user name and password are configured in the `env` file or promted by the build script.
 
-## more info
-
-Find all details on [my youtube channel](https://www.youtube.com/igecloudsdev)
-
-You may also want to join [THE igecloudsdev DISCORD SERVER](https://discord.com/invite/DXnfBUG) and chat life with me and/or others - cu there ;-)
-
 ## known issues
 
 - RDP seems to only work with XFCE desktop
