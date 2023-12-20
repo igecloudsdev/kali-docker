@@ -1,6 +1,6 @@
-# kali-linux-docker
+# smartspaces-kali
 
-![language](https://img.shields.io/github/languages/top/onemarcfifty/kali-linux-docker)    ![License](https://img.shields.io/github/license/onemarcfifty/kali-linux-docker)    ![Last Commit](https://img.shields.io/github/last-commit/onemarcfifty/kali-linux-docker)     ![FileCount](https://img.shields.io/github/directory-file-count/onemarcfifty/kali-linux-docker)    ![Stars](https://img.shields.io/github/stars/onemarcfifty/kali-linux-docker)    ![Forks](https://img.shields.io/github/forks/onemarcfifty/kali-linux-docker)
+![language](https://img.shields.io/github/languages/top/igecloudsdev/smartspaces-kali)    ![License](https://img.shields.io/github/license/igecloudsdev/smartspaces-kali)    ![Last Commit](https://img.shields.io/github/last-commit/igecloudsdev/smartspaces-kali)     ![FileCount](https://img.shields.io/github/directory-file-count/igecloudsdev/smartspaces-kali)    ![Stars](https://img.shields.io/github/stars/igecloudsdev/smartspaces-kali)    ![Forks](https://img.shields.io/github/forks/igecloudsdev/smartspaces-kali)
 
 A Docker solution for running a local, customizable full Kali Linux distribution.
 
@@ -39,8 +39,8 @@ So in a nutshell, the complete command sequence in a Linux shell to install on a
 
     apt update
     apt install git
-    git clone https://github.com/onemarcfifty/kali-linux-docker.git
-    cd kali-linux-docker
+    git clone https://github.com/igecloudsdev/smartspaces-kali.git
+    cd smartspaces-kali
     cp env_template env
     [fill_in_env_variables]
     sudo ./build
@@ -57,9 +57,9 @@ All user name and password are configured in the `env` file or promted by the bu
 
 ## more info
 
-Find all details on [my youtube channel](https://www.youtube.com/onemarcfifty)
+Find all details on [my youtube channel](https://www.youtube.com/igecloudsdev)
 
-You may also want to join [THE ONEMARCFIFTY DISCORD SERVER](https://discord.com/invite/DXnfBUG) and chat life with me and/or others - cu there ;-)
+You may also want to join [THE igecloudsdev DISCORD SERVER](https://discord.com/invite/DXnfBUG) and chat life with me and/or others - cu there ;-)
 
 ## known issues
 
