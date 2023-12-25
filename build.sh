@@ -1,4 +1,4 @@
-#!/bin/bash
+w#!/bin/bash
 
 # Import configuration variables from env file
 
