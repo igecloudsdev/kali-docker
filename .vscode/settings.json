@@ -5,5 +5,7 @@
     "workbench.experimental.cloudChanges.partialMatches.enabled": true,
     "workbench.list.scrollByPage": true,
     "workbench.quickOpen.preserveInput": true,
-    "workbench.settings.useSplitJSON": true
+    "workbench.settings.useSplitJSON": true,
+    "terminal.integrated.enableImages": true,
+    "azure.authenticationLibrary": "MSAL"
 }
