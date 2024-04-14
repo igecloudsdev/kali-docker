@@ -39,7 +39,7 @@ So in a nutshell, the complete command sequence in a Linux shell to install on a
 
     apt update
     apt install git
-    git clone https://github.com/igecloudsdev/smartspaces-kali.git
+    git clone https://github.com/ecampuslearning/smartspaces-kali.git
     cd smartspaces-kali
     cp env_template env
     [fill_in_env_variables]

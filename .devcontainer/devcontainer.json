@@ -1,0 +1,123 @@
+// For format details, see https://aka.ms/vscode-remote/devcontainer.json or this file's README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.126.0/containers/python-3
+{
+	"name": "kali-linux",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"context": "..",
+		// Update 'VARIANT' to pick a Python version. Rebuild the container 
+		// if it already exists to update. Available variants: 3, 3.6, 3.7, 3.8 
+		"args": { "VARIANT": "3" }
+	},
+
+	// Set *default* container specific settings.json values on container create.
+	"settings": { 
+		"terminal.integrated.shell.linux": "/bin/bash",
+		"python.pythonPath": "/usr/local/bin/python",
+		"python.linting.enabled": true,
+		"python.linting.pylintEnabled": true,
+		"python.formatting.autopep8Path": "/usr/local/py-utils/bin/autopep8",
+		"python.formatting.blackPath": "/usr/local/py-utils/bin/black",
+		"python.formatting.yapfPath": "/usr/local/py-utils/bin/yapf",
+		"python.linting.banditPath": "/usr/local/py-utils/bin/bandit",
+		"python.linting.flake8Path": "/usr/local/py-utils/bin/flake8",
+		"python.linting.mypyPath": "/usr/local/py-utils/bin/mypy",
+		"python.linting.pycodestylePath": "/usr/local/py-utils/bin/pycodestyle",
+		"python.linting.pydocstylePath": "/usr/local/py-utils/bin/pydocstyle",
+		"python.linting.pylintPath": "/usr/local/py-utils/bin/pylint"
+	},
+
+	// Add the IDs of extensions you want installed when the container is created.
+	"extensions": [
+		"ms-python.python"
+        "bobmagicii.dashyeah",
+        "Memphis335.ajax-snippets",
+        "vscode-icons-team.vscode-icons",
+        "folke.vscode-monorepo-workspace",
+        "emmanuelbeziat.vscode-great-icons",
+        "bajdzis.vscode-database",
+        "bajdzis.vscode-database",
+        "formulahendry.docker-explorer",
+        "Zim.vsc-dockerZim.vsc-docker",
+        "ms-azuretools.vscode-docker",
+        "ms-vscode-remote.remote-containers",
+        "TqrHsn.vscode-docker-registry-explorer",
+        "haranjackson.vscode-docker-ipython",
+        "QuentinGruber.dockerfiletemplate",
+        "delgee.sld-docker-builder",
+        "ms-vscode-remote.vscode-remote-extensionpack",
+        "BharathDevalla.gh-deploy",
+        "XuangeAha.vsmarketplace-badges",
+        "bobmagicii.dashyeah",
+        "TqrHsn.vscode-docker-registry-explorer",
+        "raits.shared-extensions",
+        "m365pnp.viva-connections-toolkit",
+        "AlexanderTatarnikov.spcopy",
+        "SiteGo.spgo",
+        "SteveCurran.spremoteapi",
+        "adamwojcikit.pnp-powershell-extension",
+        "adamwojcikit.cli-for-microsoft-365-extension",
+        "spiritous.spflash",
+        "SharepointEmbedded.ms-sharepoint-embedded-vscode-extension",
+        "s-kainet.sharepoint-typed-item",
+        "dreamcode.spfxresources",
+        "bierner.markdown-checkbox",
+        "xpol.extra-markdown-plugins",
+        "TeamsDevApp.ms-teams-vscode-extension",
+        "jeppeandersen.vstsbuildstatus",
+        "rfverbruggen.azdo-teammembers",
+        "Alotobots5152.alotobotspack",
+        "lucasprag.teamdocs",
+        "golang.Go",
+        "argutec.argutec-azure-repos",
+        "marp-team.marp-vscode",
+        "ms-edu.pxt-vscode-web",
+        "TylerLeonhardt.msft-todo-unofficial",
+        "ms-vscode.cpptools-extension-pack",
+        "ms-mssql.mssql",
+        "patridgedev.learn-module-creator",
+        "ms-vscode-remote.remote-wsl",
+        "ms-python.isort",
+        "zetta.qsharp-extensionpack",
+        "ms-vscode.live-server",
+        "ms-python.python",
+        "ms-vscode.PowerShell",
+        "ms-vscode.hexeditor",
+        "VisualStudioExptTeam.vscodeintellicode",
+        "ms-vscode-remote.remote-ssh-edit",
+        "msjsdiag.vscode-react-native",
+        "ms-vscode-remote.remote-ssh",
+        "VisualStudioExptTeam.intellicode-api-usage-examples",
+        "ms-vscode.remote-server",
+        "ms-vscode.vscode-typescript-next",
+        "ms-azuretools.vscode-azureappservice",
+        "ms-vscode.azure-repos",
+        "ms-vscode.js-debug-nightly",
+        "vsciot-vscode.vscode-arduino",
+        "ms-mssql.sql-bindings-vscode",
+        "docsmsft.docs-authoring-pack",
+        "ms-azuretools.vscode-azurestaticwebapps",
+        "ms-iot.vscode-ros",
+        "vsciot-vscode.azure-iot-edge",
+        "ms-azuretools.azure-dev",
+        "ms-ossdata.vscode-postgresql",
+        "docsmsft.docs-yaml",
+        "docsmsft.docs-images",
+        "VisualStudioExptTeam.vscodeintellicode-completions",
+        "SynapseVSCode.vscode-synapse-remote",
+        "TeamsDevApp.vscode-adaptive-cards",
+        "ms-vscode.wordcount",
+        "docsmsft.docs-visual-areas",
+        "ms-toolsai.datawrangler",
+        "microsoft-IsvExpTools.powerplatform-vscode"
+	]
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+
+	// Use 'postCreateCommand' to run commands after the container is created.
+	// "postCreateCommand": "pip3 install --user -r requirements.txt",
+
+	// Uncomment to connect as a non-root user. See https://aka.ms/vscode-remote/containers/non-root.
+	// "remoteUser": "vscode"
+}
