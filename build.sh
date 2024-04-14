@@ -22,7 +22,8 @@ fi
 
 if [ -z $XVNC_PORT ];
 then
-    XVNC_PORT=590$XVNC_DISPLAY
+    XVNC_PORT=590
+    $XVNC_DISPLAY
 fi
 
 if [ -z $XSSH_PORT ];
